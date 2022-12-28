@@ -22,7 +22,7 @@ public class HMDScript : BasePoseProvider
     private HMDUtils.FusionService.Pose m_LastGoodPose;
     private bool bAlwaysCalculateVelocity = false;
     private bool bRequiredVelocityCalculation = false;
-    private bool bAltAlgo = false;
+    private bool bAltAlgo = true;
 
     bool SetupHMD()
     {
